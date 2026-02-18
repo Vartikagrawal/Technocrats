@@ -36,20 +36,7 @@ npm install
 npm start
 
 
-The project will run on:
-http://localhost:3000
 
----
-
-
-## 🤝 Contribution
-Contributions are welcome.
-
-Steps to contribute:
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a Pull Request
 
 ---
 
