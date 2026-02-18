@@ -1,0 +1,127 @@
+/* Home.module.css */
+.container {
+  height: 80vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../../../public/Ellipse 14.png'), url('../../../public/Ellipse 14.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 10% 50%, center top;
+  background-size: 10%, 7%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.topheading {
+  font-family: Sarpanch;
+  font-size: 8vw;
+  font-weight: 400;
+  text-align: center;
+  background: -webkit-linear-gradient(180deg, #199EFB 0%, #89ECEB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading_2 {
+  font-family: Sarpanch;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+}
+
+.illimg {
+  max-width: 100%;
+  height: 15vw;
+  min-height: 150px;
+}
+
+.discordjoin_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  width: 100%; /* Ensure it takes full width */
+  padding: 0 20px; /* Add some padding to ensure there's no overflow */
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.dis_section {
+  background: linear-gradient(165.33deg, #32165D -1.86%, #006699 150.26%);
+  width: 100%; /* Ensure the section takes full width */
+  max-width: 70vw;
+  height: 40vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.disc_text_1 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.disc_text_2 {
+  font-family: Poppins;
+  font-size: 6vmin;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.join_btn {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.join_btn:hover {
+  transform: scale(1.3);
+}
+
+.discmapimg {
+  max-width: 100%;
+  height: 15vw;
+}
+
+.lottie {
+  width: 100%;
+  height: 35vh;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+@media only screen and (max-width: 425px) {
+  .topheading {
+    font-size: 40px;
+  }
+  .heading_2 {
+    font-family: Sarpanch;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
+  }
+}

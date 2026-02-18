@@ -1,0 +1,38 @@
+.domain_card_wrapper{
+    border: 1px solid white;
+    border-radius: 21px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+height: 300px;
+    background: rgba(13, 13, 13, 1);
+cursor: pointer;
+min-width: 250px;
+max-width: 250px;
+justify-content: space-between;
+text-decoration: none;
+}
+.domain_img{
+
+    max-width: 100%;
+   border-radius: 20px;
+   
+}
+.domain_name{
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+}
+.domain_add_name{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}

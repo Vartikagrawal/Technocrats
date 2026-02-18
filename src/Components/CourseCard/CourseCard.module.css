@@ -1,0 +1,42 @@
+.course_card_container{
+    min-width:250px ;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    max-width:400px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+
+}
+.course_card_container:hover{
+    transform: scale(0.9);
+}
+
+.img{
+    max-width: 100%;
+    min-width: 250px;
+    height: 40vh;
+    border-radius: 20px;
+}
+.details{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+}
+.contbtn{
+      width: 150px;
+     color: white;
+     background: linear-gradient(270deg, #186EF2 0%, #6D18EF 100%);
+     border-radius:5px ;
+     padding: 10px 20px;
+    margin: 20px;
+     cursor: pointer;
+     border: none;
+     font-size: 1.2em;
+     font-family: Nunito,sans-serif;
+ 
+ 
+ }
+ 

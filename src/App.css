@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap');
+
+.container{
+    background-color: #080108;
+    background-image: url('../public/Ellipse.png'),url('../public/Ellipse\ 30.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position: top,bottom;
+    background-size: 100%,100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.livebanner {
+    position: absolute;
+    right: 0; /* Aligns it to the right side of the screen */
+    margin-top: 150px;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 8px 8px; /* Adjusted for rounded corners at the bottom */
+    z-index: 1000;
+    font-size: 16px;
+    transform: translateY(12px); /* Optional: you can adjust this or remove it if you want it flush */
+}
+
+/* If you want to style the header text */
+.livebanner h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}

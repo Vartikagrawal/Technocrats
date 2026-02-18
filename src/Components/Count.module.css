@@ -1,0 +1,46 @@
+.ribbon {
+    background-color: #0052cc;
+    /* Your blue color */
+    padding: 10px 20px 10px 30px;
+    /* Padding around the text */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 6px;
+
+    font-family: Kumbh Sans;
+    font-weight: 900;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+    align-items: center;
+
+
+}
+
+.icon {
+    margin-right: 10px;
+    /* Spacing between the icon and the text */
+    height: 15px;
+    width: 15px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+@media screen and (width<=768px) {
+    .ribbon {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (width>=2560px) {
+    .ribbon {
+        display: none;
+    }
+
+   
+}
+

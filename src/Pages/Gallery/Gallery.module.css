@@ -1,0 +1,77 @@
+
+.testimonial_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    padding: 100px;
+
+}
+.bgname{
+    
+    display: flex;
+    justify-content: center;
+    text-shadow: 
+    0.8px 0px 0px rgba(255, 255, 255, 0.15),   /* Right shadow */
+    -0.8px 0px 0px rgba(255, 255, 255, 0.15),  /* Left shadow */
+    0px 0.8px 0px rgba(255, 255, 255, 0.15),   /* Bottom shadow */
+    0px -0.8px 0px rgba(255, 255, 255, 0.15);  /* Top shadow */
+color: #080108;  
+font-family: Kumbh Sans;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+  font-size: 20vmin;
+    font-weight: 800;
+  }
+  .test_text{
+  
+    color: white;
+   
+}
+.test_text{
+   
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  .imagecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .gall_btn{
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+background: transparent;
+color: white;
+border: 1px solid white;
+padding: 10px 20px; 
+cursor: pointer;   
+
+  }
+
+  @media only screen and (max-width: 425px) {
+  
+  
+    .test_text{
+      color: white;
+     text-align: center;
+     font-size:1.2em;
+     word-spacing: 2px;
+    }
+    
+      }
+  

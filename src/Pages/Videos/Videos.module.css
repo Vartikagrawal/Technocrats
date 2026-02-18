@@ -1,0 +1,84 @@
+
+.bgname {
+    display: flex;
+    justify-content: center;
+    text-shadow: 0.8px 0px 0px rgba(255, 255, 255, 0.15),
+      /* Right shadow */ -0.8px 0px 0px rgba(255, 255, 255, 0.15),
+      /* Left shadow */ 0px 0.8px 0px rgba(255, 255, 255, 0.15),
+      /* Bottom shadow */ 0px -0.8px 0px rgba(255, 255, 255, 0.15); /* Top shadow */
+    color: #080108;
+    font-family: Kumbh Sans;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+    font-size: 20vmin;
+    font-weight: 800;
+  }
+  .team_text {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0.41999998688697815px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    
+  }
+  .team_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+    
+  }
+.video_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 15vh;
+    margin-bottom: 30px;
+    justify-content:center ;
+}
+
+@media only screen and (max-width:505px) {
+  .team_wrapper{
+    
+   margin-top: 100px;
+ 
+   
+   
+   }
+   .video_container{
+    margin: 30px;
+   }
+  .team_text {
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+  }
+  .bgname {
+    display: flex;
+    justify-content: center;
+    text-shadow: 0.8px 0px 0px rgba(255, 255, 255, 0.15),
+      /* Right shadow */ -0.8px 0px 0px rgba(255, 255, 255, 0.15),
+      /* Left shadow */ 0px 0.8px 0px rgba(255, 255, 255, 0.15),
+      /* Bottom shadow */ 0px -0.8px 0px rgba(255, 255, 255, 0.15); /* Top shadow */
+    color: #080108;
+    font-family: Kumbh Sans;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 5px;
+    text-align: center;
+  
+    font-size: 20vmin;
+    font-weight: 800;
+  }
+  
+}

@@ -1,0 +1,231 @@
+.box {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.pic {
+  margin-top: 8rem;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+.pic2 {
+  margin-top: 5rem;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pic1 {
+  width: 600px;
+  min-width: 10px;
+  height: 550px;
+  margin-bottom: 10rem;
+}
+.heading {
+  padding-top: 50px;
+  font-size: 4rem;
+  color: #101010;
+  margin-bottom: 45px;
+
+  text-shadow: 0.8px 0px 0px rgba(255, 255, 255, 0.15),
+    /* Right shadow */ -0.8px 0px 0px rgba(255, 255, 255, 0.15),
+    /* Left shadow */ 0px 0.8px 0px rgba(255, 255, 255, 0.15),
+    /* Bottom shadow */ 0px -0.8px 0px rgba(255, 255, 255, 0.15); /* Top shadow */
+  color: #f3ecf3;
+  font-family: Kumbh Sans;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  font: bold;
+}
+.head {
+  color: white;
+  font-size: 4rem;
+}
+.next {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  padding-left: 4rem;
+}
+p {
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 4rem;
+  gap: 20px;
+}
+.btn {
+  gap: 20px;
+  height: 6rem;
+  width: 9rem;
+  padding-left: 4rem;
+}
+.btn-1 {
+  background: linear-gradient(270deg, #9fc3fb 0%, #d2b6fc 100%);
+}
+.btn-1:hover {
+  background: linear-gradient(270deg, #186ef2 0%, #6d18ef 100%);
+}
+
+.test_textevent {
+  color: white;
+  margin: 20px;
+}
+.test_textevent {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  color: white;
+  font-size: 2vw;
+  font-weight: 900;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 505px) {
+  .domain_wrapper {
+    margin-top: 100px;
+  }
+  .domain_container {
+    margin: 30px;
+  }
+  .test_textevent {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+/* .eventcardhead{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+   padding: 10px;
+
+} */
+
+/* .eventcardheadimg{ */
+/* width: 120rem; */
+/* } */
+/* Default styles */
+.eventcardhead {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.eventcardheadtext {
+  flex: 1; /* Take up remaining space */
+  color: white;
+}
+
+.eventcardheadimg {
+  flex: 1; /* Take up remaining space */
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+/* Media query for screens smaller than 768px (tablets and below) */
+@media (max-width: 767px) {
+  .eventcardhead {
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px;
+  }
+
+  .eventcardheadtext {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .eventcardheadimg {
+    margin-left: 0; /* Reset margin */
+    margin-top: 10px; /* Optional: Add space between text and image */
+  }
+}
+
+/* Additional media query for screens smaller than 480px (phones) */
+@media (max-width: 479px) {
+  .eventcardheadtext,
+  .eventcardheadimg {
+    flex-basis: 100%; /* Each item takes up full width */
+    margin: 0; /* Reset margin */
+  }
+}
+
+/* Container for images */
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+/* Individual image items */
+.image-item {
+  width: 200px; /* Set initial width */
+  border: 2px solid white; /* White border */
+  border-radius: 0.375rem; /* Rounded corners */
+  margin-right: 10px; /* Margin between items */
+  margin-bottom: 10px; /* Margin below items */
+}
+
+.eventcardheadtext {
+  padding: 20px;
+}
+
+.image-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem; /* Ensure rounded corners for the image */
+}
+
+/* Media query for screens smaller than 768px (tablets and below) */
+@media (max-width: 767px) {
+  .image-item {
+    width: calc(90% - 10px);
+  }
+}
+
+/* Media query for screens smaller than 480px (phones) */
+@media (max-width: 479px) {
+  .image-item {
+    width: 250px; /* Full width for each item, stacking vertically */
+    margin-right: 0;
+  }
+}
+
+
+.eventcardheading {
+  width: 40rem;
+}
+
+@media screen and (width<768px) {
+  .eventcardheading {
+    width: 20rem;
+  }
+}
+
+
+
+@media screen and (width<400px) {
+  .eventcardheading {
+    width: 15rem;
+  }
+}

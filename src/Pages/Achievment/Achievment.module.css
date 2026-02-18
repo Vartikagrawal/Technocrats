@@ -1,0 +1,68 @@
+.achvcardwrapper {
+  width: 30rem;
+  background-color:#002266;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.achvicon{
+    width: 20px;
+    height: 20px;
+}
+
+.achvcardgpa {
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.achvcardpa {
+  display: flex;
+  flex-direction: column;
+}
+
+.achvtitle {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.achvtitlebox {
+    display: flex;
+    justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+
+@media screen and (width<758px) {
+.achvcardwrapper {
+    width: 20rem;
+
+    /* background-color: yellow; */
+}
+.achvboxdesc{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+}
+
+
+@media screen and (width<400px) {
+    .achvcardwrapper {
+        width: 15rem;
+    
+        /* background-color: yellow; */
+    }
+
+}

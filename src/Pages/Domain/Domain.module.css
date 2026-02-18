@@ -1,0 +1,65 @@
+
+.domain_wrapper{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+margin-top: 120px;
+background-image: url('../../../public/Ellipse\ 14.png'),url('../../../public/elipseleft.png');
+background-repeat: no-repeat,no-repeat;
+background-position: right top , 0 100% ;
+background-size: 10% , 25% ;
+
+
+}
+.bgname{
+    
+  display: flex;
+  justify-content: center;
+color: rgba(255, 255, 255, 0.15);
+font-family: Jost;
+font-size: 20vmin;
+  font-weight: 800;
+}
+.domain_text{
+
+
+position: relative;
+bottom: 60px;
+  color: white;
+  font-size: 3.2vw;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.domain_container{
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+@media only screen and (max-width: 425px) {
+  
+  .domain_container{
+   margin: 0;
+   padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+  .domain_text{
+    position: relative;
+bottom: 50px;
+    color: white;
+   text-align: center;
+   font-size: 1.1em;
+   word-spacing: 2px;
+   letter-spacing: 1px;
+   line-height: 20px
+  }
+  
+    }

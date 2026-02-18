@@ -1,0 +1,28 @@
+.team_card_wrapper{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 220px;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+/*    
+        border: 1px solid; */
+        box-shadow: 0 0px 80px rgb(18, 18, 18) inset;
+   
+   
+}
+.teammate_name{
+    color: white;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.teammate_img{
+    background-image: url('../../../public/Ellipse\ 418.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

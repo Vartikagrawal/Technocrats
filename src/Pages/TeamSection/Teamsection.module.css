@@ -1,0 +1,73 @@
+.bgname {
+  display: flex;
+  justify-content: center;
+  text-shadow: 0.8px 0px 0px rgba(255, 255, 255, 0.15),
+    /* Right shadow */ -0.8px 0px 0px rgba(255, 255, 255, 0.15),
+    /* Left shadow */ 0px 0.8px 0px rgba(255, 255, 255, 0.15),
+    /* Bottom shadow */ 0px -0.8px 0px rgba(255, 255, 255, 0.15); /* Top shadow */
+  color: #080108;
+  font-family: Kumbh Sans;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-size: 20vmin;
+  font-weight: 800;
+}
+.team_text {
+  font-family: Jost;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0.41999998688697815px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 30px;
+}
+.team_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.team_content {
+  color: white;
+  width: 40vw;
+  min-width: 300px;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1.4199999570846558px;
+  text-align: justify;
+ 
+  letter-spacing: 0.8px;
+  word-spacing: 0.4px;
+  line-height: 30px;
+}
+.team_content_2 {
+  margin-top: 12px;
+  text-align: justify;
+}
+.teambtn {
+  padding: 10px;
+  color: white;
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}

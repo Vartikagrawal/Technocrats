@@ -1,0 +1,31 @@
+
+.testcard_wrapper{
+    width: 270px;
+    height: 270px;
+    border-radius:12px ;
+    background-color: #0D0D0D;
+    padding: 20px
+}
+.testcrad_name{
+    color: white;
+    font-weight: bold;
+}
+.testcard_role{
+    color: white;
+    font-size: 0.8em;
+}
+.testcard_desc{
+    color: white;
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+}
+.social_handles{
+   margin-top: 3px;
+    display: flex;
+    gap: 10px;
+}
+
+
