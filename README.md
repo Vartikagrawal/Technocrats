@@ -41,15 +41,6 @@ http://localhost:3000
 
 ---
 
-## 📁 Project Structure
-src/
-├── components/
-├── pages/
-├── assets/
-└── App.js
-
-
----
 
 ## 🤝 Contribution
 Contributions are welcome.
