@@ -6,7 +6,7 @@ const Testicard = (props) => {
   return (
     <div className={styles.testcard_wrapper}>
         <div style={{margin:"15px", display:"flex",gap:"20px"}}>
-        <img style={{borderRadius:"50%",width:"70px"}} alt="illustartion" src={props.img}/>
+        <img className={styles.profile_img} alt="illustration" src={props.img}/>
         <div>
         <div className={styles.testcrad_name}>{props.name}</div>
       <div className={styles.testcard_role}>{props.role}</div>

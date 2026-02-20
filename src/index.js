@@ -15,6 +15,8 @@ import Videos from "./Pages/Videos/Videos";
 import Player from "./Pages/player/Player";
 import Register from "./Pages/Registration/Register";
 import Achievement from "./Pages/Achievment/Achievment"
+import Hackathons from "./Pages/Hackathons/Hackathons";
+import Internship from "./Pages/Internship/Internship";
 
 
 
@@ -71,6 +73,13 @@ const appRouter = createBrowserRouter([
       {
         path: "/video",
         element: <Player />,
+      },
+      {
+        path: "/achievements/hackathons",
+        element: <Hackathons />,
+      },{
+        path: "/achievements/internships",
+        element: <Internship/>
       },
     ],
   },

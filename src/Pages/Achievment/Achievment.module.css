@@ -1,68 +1,196 @@
-.achvcardwrapper {
-  width: 30rem;
-  background-color:#002266;
+.pageWrapper {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  place-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
-}
-
-.achvicon{
-    width: 20px;
-    height: 20px;
-}
-
-.achvcardgpa {
-  display: flex;
   align-items: center;
-  place-content: center;
+  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
 }
 
-.achvcardpa {
+.pageWrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(ellipse 60% 40% at 20% 20%, rgba(0, 60, 180, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 50% at 80% 80%, rgba(0, 200, 255, 0.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.sectionHeading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.25em;
+  color: #ffffff;
+  margin: 0 0 12px;
+  text-align: center;
+  position: relative;
+}
+
+.headingAccent {
+  color: #00aaff;
+}
+
+.sectionSubtitle {
+  font-size: 0.95rem;
+  color: #6699bb;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 64px;
+  text-align: center;
+}
+.cardsContainer {
+  display: flex;
+  gap: 28px;
+  width: 100%;
+  max-width: 1100px;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  flex: 1;
+  background: #001433;
+  border: 1px solid #003399;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+              box-shadow 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+              border-color 0.35s ease;
   display: flex;
   flex-direction: column;
 }
 
-.achvtitle {
-  font-size: 30px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 24px 60px rgba(0, 100, 255, 0.25), 0 0 0 1px #0055ff;
+  border-color: #0055ff;
 }
 
-.achvtitlebox {
-    display: flex;
-    justify-content: space-between;
-  margin-bottom: 15px;
+.card:hover .cardGlow {
+  opacity: 1;
+}
+
+.card:hover .ctaArrow {
+  transform: translateX(6px);
+}
+
+.hackathonCard {
+  border-color: #002299;
+}
+
+.hackathonCard:hover {
+  box-shadow: 0 24px 60px rgba(0, 80, 255, 0.3), 0 0 0 1px #0044ff;
+  border-color: #0044ff;
+}
+
+.internCard {
+  border-color: #00334d;
+}
+
+.internCard:hover {
+  box-shadow: 0 24px 60px rgba(0, 180, 255, 0.25), 0 0 0 1px #00aaff;
+  border-color: #00aaff;
+}
+.cardTag {
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: #00aaff;
+  padding: 14px 20px 0;
+  font-weight: 700;
+}
+.cardImageGrid {
+  position: relative;
+  margin: 14px;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 200px;
+}
+
+.gridImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75) saturate(0.8);
+  transition: filter 0.3s ease;
+}
+
+.card:hover .gridImg {
+  filter: brightness(0.9) saturate(1.1);
+}
+.cardBody {
+  padding: 4px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 1.6rem;
+  font-family: 'Georgia', serif;
+  color: #ffffff;
+  margin: 0 0 12px;
+  letter-spacing: 0.04em;
+}
+
+.cardDesc {
+  font-size: 0.88rem;
+  color: #7aaabb;
+  line-height: 1.7;
+  margin: 0 0 24px;
+  flex: 1;
+}
+.cta {
+  display: flex;
   align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
 }
 
-
-@media screen and (width<758px) {
-.achvcardwrapper {
-    width: 20rem;
-
-    /* background-color: yellow; */
-}
-.achvboxdesc{
-    font-size: 15px;
-    align-items: center;
-    text-align: center;
+.ctaArrow {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  color: #00aaff;
+  font-size: 1.1rem;
 }
 
-
-
+.cardGlow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0, 100, 255, 0.07) 0%, transparent 70%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
+@media screen and (max-width: 768px) {
+  .cardsContainer {
+    flex-direction: column;
+    max-width: 480px;
+  }
 
-@media screen and (width<400px) {
-    .achvcardwrapper {
-        width: 15rem;
-    
-        /* background-color: yellow; */
-    }
+  .cardImageGrid {
+    height: 170px;
+  }
 
+  .sectionHeading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pageWrapper {
+    padding: 48px 14px;
+  }
+
+  .cardTitle {
+    font-size: 1.3rem;
+  }
 }
