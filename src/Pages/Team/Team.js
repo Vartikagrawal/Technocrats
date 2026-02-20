@@ -24,7 +24,8 @@ import Sahil from "../../Assets/team/currenteam/sahil.png";
 import Anoushka from "../../Assets/team/currenteam/anushka.png";
 import Sarvin from "../../Assets/team/currenteam/sarvin.png";
 import Shreevesh from "../../Assets/shreevesh.png";
-import updatedteam from "../../Assets/updated_team.jpg";
+import coreTeam from "../../Assets/updated_team.jpg";
+import updatedteam from "../../Assets/innotech1.png";
 
 const founderteam = [
   {
@@ -50,7 +51,76 @@ const founderteam = [
   },
 ];
 
-const currentteam = [
+const current2025 = [
+  {
+    name: "Ananya Srivastava",
+    role: "President",
+    img: Ananya,
+  },
+  {
+    name: "Pranshu Gupta",
+    role: "Vice President",
+    img: Pranshu,
+  },
+  {
+    name: "Shreya Bhradwaj ",
+    role: "General Secretary",
+    img: shreya,
+  },
+  {
+    name: "Siddarth Yadav",
+    role: "Community manager",
+    img: Siddarth,
+  },
+  {
+    name: "Nishika tyagi  ",
+    role: "Social Media Lead",
+    img: Nishika,
+  },
+  {
+    name: "Shreevesh Kumar ",
+    role: "Web Lead",
+    img: Shreevesh,
+  },
+
+  {
+    name: "Ritik Bhatt",
+    role: "Android Lead",
+    img: Rithik,
+  },
+  {
+    name: "Shreya punani",
+    role: "Cyber Lead",
+    img: Shreya,
+  },
+  {
+    name: "Ashutosh Mishra ",
+    role: "ML Lead",
+    img: AshutoshMishra,
+  },
+  {
+    name: "Sarvin srivastava",
+    role: "AR/VR Lead",
+    img: Sarvin,
+  },
+  {
+    name: "Sahil Panwar",
+    role: "UI/UX Lead",
+    img: Sahil,
+  },
+  {
+    name: "Anoushka  ",
+    role: "Content Lead",
+    img: Anoushka,
+  },
+  {
+    name: "Aditya Mohan ",
+    role: "CP/DSA Lead",
+    img: AdityaMohan,
+  },
+];
+
+const current2026 = [
   {
     name: "Ananya Srivastava",
     role: "President",
@@ -157,18 +227,19 @@ const Team = () => {
       <div className={styles.mainimgdiv}>
         <img className={styles.team_img} src={updatedteam} alt="illust" />
       </div>
-
-      <div className={styles.test_text}>Founders </div>
+      {/*core team of 2026*/ }
+      <div className={styles.test_text}>Core Team 2026 </div>
 
       <div className={styles.team_container}>
-        {founderteam.map((e) => (
+        {current2026.map((e) => (
           <Teamcard key={e.name} name={e.name} img={e.img} role={e.role} />
         ))}
       </div>
-      <div className={styles.test_text}>Current Core Team </div>
+      {/*core team of 2025*/ }
+      <div className={styles.test_text}>Core Team 2025 </div>
 
       <div className={styles.team_container}>
-        {currentteam.map((e) => (
+        {current2025.map((e) => (
           <Teamcard key={e.name} name={e.name} img={e.img} role={e.role} />
         ))}
       </div>
@@ -179,6 +250,16 @@ const Team = () => {
         {pastcoreteam.map((e) => (
           <Teamcard key={e.name} name={e.name} img={e.img} role={e.role} />
         ))}
+      </div>
+      <div className={styles.test_text}>Founders </div>
+
+      <div className={styles.team_container}>
+        {founderteam.map((e) => (
+          <Teamcard key={e.name} name={e.name} img={e.img} role={e.role} />
+        ))}
+      </div>
+      <div className={styles.mainimgdiv}>
+        <img className={styles.team_img} src={coreTeam} alt="illust" />
       </div>
     </div>
   );

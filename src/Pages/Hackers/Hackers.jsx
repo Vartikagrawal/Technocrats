@@ -50,6 +50,7 @@ import ml1 from "../../Assets/ml1.png";
 import ml2 from "../../Assets/ml2.jpeg";
 import ml3 from "../../Assets/ml3.jpeg";
 import ml4 from "../../Assets/ml4.jpeg";
+
 const data = [
   {
     name: "Inauguration Ceremony",
@@ -89,7 +90,7 @@ const data = [
     name: "THE HACKER'S MEETUP",
     description:
       "Hackers Meet up can refer to various gatherings of hackers and cybersecurity enthusiasts. The most prominent one is The Hacker's Meetup, a series of monthly events in India focused on sharing knowledge and building community around vulnerability research, ethical hacking, and security awareness.",
-    images: [hackers1, hackers2, hackers3, hackers4],
+    images: [hackers1, hackers2, hackers3, hackers4, hackers5],
   },
   {
     name: "Organised Innotech'25",

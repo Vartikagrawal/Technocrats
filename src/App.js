@@ -5,7 +5,14 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import PresenceTracker from "./Components/Countop";
 import OnlineUserCount from "./Components/Countpre";
+import { useEffect } from "react";
 function App() {
+   useEffect(() => {
+  console.log(
+    "%cDeveloped by Team Technocrats",
+    "color: #0a66c2; font-weight: bold; font-size: 14px;"
+  );
+}, []);
   return (
     <>
       <Toaster
