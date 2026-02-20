@@ -12,6 +12,7 @@ import innotech1 from "../../Assets/Innotech1.JPG.jpeg";
 import technoverse1 from "../../Assets/technoverse1.jpeg";
 import foundationday from "../../Assets/foundation1.jpeg"
 import uiux1 from "../../Assets/uiux1.jpeg"
+import ml1 from "../../Assets/ml1.png"
 
 
 
@@ -60,7 +61,10 @@ const data = [
   {
     name:"UI/UX Bootcamp",
     img:uiux1,
-  },
+  },{
+    name:"Machine Learning Bootcamp",
+    img:ml1,
+  }
 ];
 
 const Event = () => {

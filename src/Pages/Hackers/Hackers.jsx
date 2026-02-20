@@ -46,6 +46,10 @@ import foundation2 from "../../Assets/foundation2.jpeg";
 import uiux1 from "../../Assets/uiux1.jpeg";
 import uiux2 from "../../Assets/uiux2.jpeg";
 
+import ml1 from "../../Assets/ml1.png";
+import ml2 from "../../Assets/ml2.jpeg";
+import ml3 from "../../Assets/ml3.jpeg";
+import ml4 from "../../Assets/ml4.jpeg";
 const data = [
   {
     name: "Inauguration Ceremony",
@@ -110,6 +114,12 @@ const data = [
     description:
       "The UI/UX Bootcamp was an intensive workshop designed to introduce students to the fundamentals of user interface and user experience design. It provided hands-on training in design principles, prototyping, and usability testing, equipping participants with practical skills for creating engaging digital experiences.",
     images: [uiux1, uiux2],
+  },
+  {
+    name: "Machine Learning Bootcamp",
+    description:
+      "The Machine Learning Bootcamp was an intensive workshop designed to introduce students to the fundamentals of machine learning. It provided hands-on training in data analysis, model building, and deployment, equipping participants with practical skills for creating intelligent applications.",
+    images: [ml1, ml2, ml3, ml4],
   },
 ];
 

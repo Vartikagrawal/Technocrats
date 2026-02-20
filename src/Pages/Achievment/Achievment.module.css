@@ -19,13 +19,15 @@
 }
 
 .sectionHeading {
-  font-size: clamp(2rem, 5vw, 4rem);
-  font-family: 'Georgia', serif;
-  letter-spacing: 0.25em;
-  color: #ffffff;
-  margin: 0 0 12px;
   text-align: center;
-  position: relative;
+  color: #f3ecf3;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 900;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  text-shadow: 0 0 30px rgba(159, 195, 251, 0.4);
 }
 
 .headingAccent {

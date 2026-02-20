@@ -1,7 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import internship from "../../Assets/internshipHolder.png";
-import hackathon from "../../Assets/hackathonHolder.png";
 import sih from "../../Assets/SIH.jpg";
 import abhinavintern from "../../Assets/abhinavintern.png";
 import dhruvintern from "../../Assets/dhruvintern.png";
@@ -27,7 +25,7 @@ const Achievment = () => {
         >
           <div className={styles.cardTag}>HACKATHONS</div>
           <div className={styles.cardImageGrid}>
-            <img src={hackathon} alt="Hackathon" className={styles.gridImg} />
+            <img src={sih} alt="Hackathon" className={styles.gridImg} />
           </div>
           <div className={styles.cardBody}>
             <h2 className={styles.cardTitle}>Hackathon Wins</h2>
@@ -49,7 +47,7 @@ const Achievment = () => {
         >
           <div className={styles.cardTag}>INTERNSHIPS</div>
           <div className={styles.cardImageGrid}>
-            <img src={internship} alt="Internship" className={styles.gridImg} />
+            <img src={abhinavintern} alt="Internship" className={styles.gridImg} />
           </div>
           <div className={styles.cardBody}>
             <h2 className={styles.cardTitle}>Industry Internships</h2>
