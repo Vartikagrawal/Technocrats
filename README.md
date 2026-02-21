@@ -26,7 +26,7 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <repository-link>
+git clone https://github.com/Vartikagrawal/Technocrats.git
 ```
 
 ### 2️⃣ Navigate into the project folder
