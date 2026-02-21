@@ -23,19 +23,23 @@ It is designed to showcase the club’s activities and help students stay update
 
 Follow these steps to run the project locally:
 
+
 ### 1️⃣ Clone the repository
 ```bash
 git clone <repository-link>
+```
 
-2️⃣ Navigate into the project folder
+### 2️⃣ Navigate into the project folder
 ```bash
-cd project-folder-name
+cd Technocrats
+```
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 ```bash
 npm install
+```
 
-4️⃣ Start the development server
+### 4️⃣ Start the development server
 ```bash
 npm start
-
+```
