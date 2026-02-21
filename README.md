@@ -27,12 +27,15 @@ Follow these steps to run the project locally:
 ```bash
 git clone <repository-link>
 
+2️⃣ Navigate into the project folder
 ```bash
 cd project-folder-name
 
+3️⃣ Install dependencies
 ```bash
 npm install
 
+4️⃣ Start the development server
 ```bash
 npm start
 
